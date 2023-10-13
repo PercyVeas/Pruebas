@@ -1,0 +1,160 @@
+/* importacion de utilities */
+.Icon, .foot-Poke .contactoFooter .cards img, footer .contactoFooter .cards img {
+  width: 40px;
+  height: 40px;
+}
+
+.cajaIcon, .foot-Poke .contactoFooter .cards, footer .contactoFooter .cards {
+  padding: 150px;
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  justify-content: space-between;
+}
+
+/* importacion de base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.allIndex {
+  background-color: rgb(221, 208, 213);
+}
+
+.allPoke {
+  background-color: #61B876;
+}
+
+/* importaciones de layouts */
+.Icon, .foot-Poke .contactoFooter .cards img, footer .contactoFooter .cards img {
+  width: 40px;
+  height: 40px;
+}
+
+.cajaIcon, .foot-Poke .contactoFooter .cards, footer .contactoFooter .cards {
+  padding: 150px;
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  justify-content: space-between;
+}
+
+/* index */
+nav {
+  float: right;
+}
+nav ul {
+  margin-right: 15px;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 70px;
+  padding: 25px 0;
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main .primerSec {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+main .primerSec div {
+  padding: 20px;
+}
+main .primerSec div img {
+  margin-left: 650px;
+  width: 150px;
+  height: 150px;
+}
+
+.tecnologias {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  justify-content: space-between;
+  padding: 25px;
+}
+.tecnologias img {
+  height: 80px;
+  width: 80px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  background-color: rgb(216, 188, 233);
+  width: 100%;
+  height: 250px;
+}
+footer .contactoFooter {
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+/* POKEMONES */
+.header-Poke {
+  width: 100%;
+  height: 400px;
+}
+
+.navPoke {
+  border-radius: 5px;
+  position: absolute;
+}
+.navPoke ul {
+  height: 67px;
+  width: 100%;
+}
+.navPoke ul li {
+  list-style: none;
+  padding: 25px 0;
+  text-align: left;
+}
+.navPoke ul li a {
+  text-decoration: none;
+}
+
+.sect-Titulo .contTitulo {
+  margin-top: 50px;
+  padding: 30px;
+  width: 100%;
+}
+.sect-Titulo .contTitulo .tituloPoke {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 150px;
+}
+
+.pokeCards {
+  margin-bottom: 30px;
+}
+.pokeCards .col {
+  border: solid 1px red;
+  margin-bottom: 30px;
+}
+
+.foot-Poke {
+  background-color: rgb(214, 149, 149);
+  width: 100%;
+  height: 250px;
+}
+.foot-Poke .contactoFooter {
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+/* PERROS */
+/* DEPORTES */
+/* CONCIERTOS */
+
+/*# sourceMappingURL=style.css.map */

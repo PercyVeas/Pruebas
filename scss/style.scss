@@ -1,0 +1,35 @@
+
+/* importacion de utilities */
+@import "./utilities/variables";
+@import "./utilities/funciones";
+@import "./utilities/maps";
+
+/* importacion de base */
+@import "./base/reset";
+
+
+
+/* importaciones de layouts */
+@import "./utilities/variables";
+@import "./utilities/funciones";
+
+/* index */
+@import "./layouts/index/header-index";
+@import "./layouts/index/main-index";
+@import "./layouts/index/footer-index";
+
+/* POKEMONES */
+@import "./layouts/pokemones/header-poke";
+@import "./layouts/pokemones/main-poke";
+@import "./layouts/pokemones/footer-poke";
+
+/* PERROS */
+
+
+
+/* DEPORTES */
+
+
+
+
+/* CONCIERTOS */

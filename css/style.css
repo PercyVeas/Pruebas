@@ -26,6 +26,10 @@
   background-color: #61B876;
 }
 
+.allPerros {
+  background-color: rgb(197, 197, 197);
+}
+
 /* importaciones de layouts */
 .Icon, .foot-Poke .contactoFooter .cards img, footer .contactoFooter .cards img {
   width: 40px;
@@ -139,12 +143,16 @@ footer .contactoFooter {
   margin-bottom: 30px;
 }
 .pokeCards .col {
-  border: solid 1px red;
   margin-bottom: 30px;
 }
 
+.col img:hover {
+  width: 300px;
+  height: 300px;
+}
+
 .foot-Poke {
-  background-color: rgb(214, 149, 149);
+  background-color: rgb(183, 250, 255);
   width: 100%;
   height: 250px;
 }
@@ -154,6 +162,10 @@ footer .contactoFooter {
   height: 200px;
 }
 /* PERROS */
+.header-Perros {
+  background-color: rgb(143, 143, 143);
+}
+
 /* DEPORTES */
 /* CONCIERTOS */
 

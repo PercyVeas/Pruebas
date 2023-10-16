@@ -1,0 +1,76 @@
+/* index, pagina principal */
+@media(min-width:1024px){
+    .header-Index{
+        border: solid 1px rgb(76, 0, 255);
+        .contTitulo{
+            border: solid 1px rgb(238, 255, 0);
+        }
+    }
+    .indexNav{
+        display: flex;
+        border: solid 1px rgb(38, 0, 255);
+        height: 600px;
+        margin-right: 200px;
+    }
+
+    .navIndex{
+        width: 500px;
+        border: solid 1px rgb(94, 255, 0);
+
+        ul{
+            border: solid 1px rgb(0, 255, 200);
+            li{
+                border: solid 1px red;
+        }
+        }
+            
+    }
+    .indexMain{
+        border: solid 1px red;
+    }
+    .primerSec{
+            height: 500px;
+        .contFotoParra{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            height: 500px;
+            margin-left: 500px;
+            margin-bottom: 400px;
+            img{
+                margin-left: 400px;
+                margin-bottom: 0;
+            }
+            .contenedorParrafo{
+                height: 100px;
+                width: 1000px;
+                margin-left: 0;
+            }
+        }
+    }
+    .tecnologias{
+        display: inline-flex;
+        border: solid 1px rgb(0, 247, 255);
+        height: 100px;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+        }
+    }
+    
+/*  PAGINA POKEMONES */
+
+.allPoke{
+    .header-Poke{
+        .sect-Titulo{
+            .tituloPoke{
+                font-size: 70px;
+            } 
+        }
+    }
+
+    
+}
+
+

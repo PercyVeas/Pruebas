@@ -6,9 +6,13 @@ main .primerSec{
     justify-content: center;
     align-items: center;
     margin-top: 180px;
-        div{
+        .fotoIndex{
+            /* display: flex; */
             padding: 20px;
                 img{
+                    /* display: flex;
+                    align-items: center;
+                    justify-content: center; */
                     margin-left: 650px;
                     width: 150px;
                     height: 150px;  
@@ -29,4 +33,4 @@ main .primerSec{
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} 

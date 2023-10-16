@@ -44,6 +44,14 @@
   background-color: rgb(103, 119, 170);
 }
 
+.bodyContacto {
+  background-color: rgb(221, 208, 213);
+}
+
+.mainContacto {
+  background: red;
+}
+
 /* importaciones de layouts */
 .Icon, .foot-Poke .contactoFooter .cards img, footer .contactoFooter .cards img {
   width: 40px;
@@ -90,10 +98,14 @@ main .primerSec {
   align-items: center;
   margin-top: 180px;
 }
-main .primerSec div {
+main .primerSec .fotoIndex {
+  /* display: flex; */
   padding: 20px;
 }
-main .primerSec div img {
+main .primerSec .fotoIndex img {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   margin-left: 650px;
   width: 150px;
   height: 150px;
@@ -296,5 +308,188 @@ footer .contactoFooter {
     }
 } */
 /* CONTACTO */
+.contactoBody {
+  background-color: rgb(221, 208, 213);
+}
+
+.principal {
+  padding: 50px;
+}
+.principal .principal-uno {
+  text-align: center;
+}
+.principal .principal-dos {
+  text-align: center;
+}
+
+/* MEDIA */
+/* index, pagina principal */
+@media (min-width: 1024px) {
+  .header-Index {
+    border: solid 1px rgb(76, 0, 255);
+  }
+  .header-Index .contTitulo {
+    border: solid 1px rgb(238, 255, 0);
+  }
+  .indexNav {
+    display: flex;
+    border: solid 1px rgb(38, 0, 255);
+    height: 600px;
+    margin-right: 200px;
+  }
+  .navIndex {
+    width: 500px;
+    border: solid 1px rgb(94, 255, 0);
+  }
+  .navIndex ul {
+    border: solid 1px rgb(0, 255, 200);
+  }
+  .navIndex ul li {
+    border: solid 1px red;
+  }
+  .indexMain {
+    border: solid 1px red;
+  }
+  .primerSec {
+    height: 500px;
+  }
+  .primerSec .contFotoParra {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    margin-left: 500px;
+    margin-bottom: 400px;
+  }
+  .primerSec .contFotoParra img {
+    margin-left: 400px;
+    margin-bottom: 0;
+  }
+  .primerSec .contFotoParra .contenedorParrafo {
+    height: 100px;
+    width: 1000px;
+    margin-left: 0;
+  }
+  .tecnologias {
+    display: inline-flex;
+    border: solid 1px rgb(0, 247, 255);
+    height: 100px;
+  }
+  .tecnologias img {
+    height: 50px;
+    width: 50px;
+  }
+}
+/*  PAGINA POKEMONES */
+.allPoke .header-Poke .sect-Titulo .tituloPoke {
+  font-size: 70px;
+}
+
+@media (min-width: 768px) {
+  .header-Index {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .indexNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 425px) {
+  .navIndex {
+    display: flex;
+    width: 200px;
+    height: 400px;
+    margin-right: 100px;
+  }
+  .navIndex ul {
+    width: 200px;
+    height: 400px;
+    margin-left: 15%;
+  }
+  .navIndex ul li {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+@media (min-width: 375px) {
+  .navIndex {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    margin-right: 110px;
+    justify-content: center;
+  }
+  .navIndex ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+/* INDEX */
+@media (min-width: 320px) {
+  .navIndex {
+    margin-left: 15px;
+  }
+  .primerSec {
+    width: 100%;
+    height: 1600px;
+  }
+  .primerSec .contFotoParra {
+    margin-right: 500px;
+    margin-bottom: 15px;
+  }
+  .primerSec .fotoIndex {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+    margin-left: 580px;
+  }
+  .contenedorParrafo {
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .indexMain .tecnologias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+.footer-Index {
+  height: 200px;
+  width: 100%;
+}
+.footer-Index .contactoFooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+}
+.footer-Index .contactoFooter .cards {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 20px;
+}
+.footer-Index .contactoFooter .cards img {
+  height: 30px;
+  width: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

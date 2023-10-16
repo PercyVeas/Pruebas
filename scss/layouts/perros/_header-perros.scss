@@ -1,4 +1,27 @@
 
 .header-Perros{
-    background-color:$perros-header;
-} 
+    background-color: $perros-index;
+    .nav-Perros{
+        align-items: center;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            li{
+                display: inline-block;
+                background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 54%);   
+                a{
+                    color: white;
+                    text-decoration: none;
+                    display: block;
+                    padding: 12px 80px;
+                    font-size: 17px; 
+                }
+            }
+        }
+    
+    }
+    
+}
+

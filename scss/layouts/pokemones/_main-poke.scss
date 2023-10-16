@@ -1,13 +1,22 @@
 
 .pokeCards{
     margin-bottom: 30px;
-    .col{
+    .poke{
         margin-bottom: 30px;
+    img{
+        height: 200px;
+        width: 200px;
+    }
     }
 }
 
-.col img:hover{
-    width: 300px;
-    height: 300px;
-    
+.pokeCards{
+    .poke{
+        img:hover{
+            height: 300px;
+            width: 300px;
+        }
+    }
 }
+
+    

@@ -6,17 +6,25 @@
 }
 
 .navPoke{
-    border-radius: 5px;
-    position: absolute; 
+    
     ul{
+        
+        list-style: none;
         height: 67px;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 5px 5px 5px 5px;
         li{
-            list-style: none;
-            padding: 25px 0;
-            text-align: left;
+            float: left;
+            
             a{
+                background: linear-gradient(to bottom, #8ab66b 44%,#c9de96 77%);
+                color: rgb(0, 0, 0);
                 text-decoration: none;
+                display: block;
+                padding: 12px 30px;
+                font-size: 17px;
 
             }
     }
@@ -25,13 +33,15 @@
 .sect-Titulo{
     
     .contTitulo{
-        margin-top: 50px;
         padding: 30px;
         width: 100%;
     .tituloPoke{
         text-align: center;
         font-size: 100px;
-        margin-top: 150px;
     }
 }
+}
+
+.tituloPoke:hover{
+    
 }

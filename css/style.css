@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* importacion de utilities */
 .Icon, .foot-Poke .contactoFooter .cards img, footer .contactoFooter .cards img {
   width: 40px;
@@ -10,6 +11,11 @@
   height: 50px;
   margin-right: 25px;
   justify-content: space-between;
+}
+
+.diseñoPerrosimg, .main-Perros img {
+  margin-top: 15px;
+  border-radius: 5%;
 }
 
 /* importacion de base */
@@ -27,7 +33,15 @@
 }
 
 .allPerros {
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(103, 119, 170);
+}
+
+.header-Perros {
+  background-color: rgb(143, 143, 143);
+}
+
+.foot-Perros {
+  background-color: rgb(103, 119, 170);
 }
 
 /* importaciones de layouts */
@@ -44,20 +58,25 @@
   justify-content: space-between;
 }
 
+.diseñoPerrosimg, .main-Perros img {
+  margin-top: 15px;
+  border-radius: 5%;
+}
+
 /* index */
-nav {
+.navIndex {
   float: right;
 }
-nav ul {
+.navIndex ul {
   margin-right: 15px;
 }
-nav ul li {
+.navIndex ul li {
   list-style: none;
   margin-left: 70px;
   padding: 25px 0;
   float: left;
 }
-nav ul li a {
+.navIndex ul li a {
   text-decoration: none;
   color: black;
 }
@@ -111,48 +130,53 @@ footer .contactoFooter {
   height: 400px;
 }
 
-.navPoke {
-  border-radius: 5px;
-  position: absolute;
-}
 .navPoke ul {
+  list-style: none;
   height: 67px;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 5px 5px 5px;
 }
 .navPoke ul li {
-  list-style: none;
-  padding: 25px 0;
-  text-align: left;
+  float: left;
 }
 .navPoke ul li a {
+  background: linear-gradient(to bottom, #8ab66b 44%, #c9de96 77%);
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  display: block;
+  padding: 12px 30px;
+  font-size: 17px;
 }
 
 .sect-Titulo .contTitulo {
-  margin-top: 50px;
   padding: 30px;
   width: 100%;
 }
 .sect-Titulo .contTitulo .tituloPoke {
   text-align: center;
   font-size: 100px;
-  margin-top: 150px;
 }
 
 .pokeCards {
   margin-bottom: 30px;
 }
-.pokeCards .col {
+.pokeCards .poke {
   margin-bottom: 30px;
 }
+.pokeCards .poke img {
+  height: 200px;
+  width: 200px;
+}
 
-.col img:hover {
-  width: 300px;
+.pokeCards .poke img:hover {
   height: 300px;
+  width: 300px;
 }
 
 .foot-Poke {
-  background-color: rgb(183, 250, 255);
+  background-color: rgb(148, 182, 148);
   width: 100%;
   height: 250px;
 }
@@ -163,10 +187,114 @@ footer .contactoFooter {
 }
 /* PERROS */
 .header-Perros {
-  background-color: rgb(143, 143, 143);
+  background-color: rgb(103, 119, 170);
+}
+.header-Perros .nav-Perros {
+  align-items: center;
+}
+.header-Perros .nav-Perros ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header-Perros .nav-Perros ul li {
+  display: inline-block;
+  background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 54%);
+}
+.header-Perros .nav-Perros ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 12px 80px;
+  font-size: 17px;
+}
+
+.main-Perros .parrafoInicial {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding: 70px;
+  margin: 0 0 0 0;
+  margin-bottom: 50px;
+}
+.main-Perros .parrafoInicial .parrafo {
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.primerCards {
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.primerCards .berna {
+  height: 400px;
+}
+.primerCards .border {
+  height: 700px;
+}
+.primerCards .dober {
+  height: 680px;
+}
+
+.segundoCards {
+  gap: 10px;
+  margin-top: 15px;
+}
+.segundoCards .leonberger {
+  height: 570px;
+}
+.segundoCards .mallinois {
+  height: 720px;
+}
+.segundoCards .mastinIta {
+  height: 750px;
+}
+
+.tercerCards {
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.tercerCards .rott {
+  height: 650px;
+}
+.tercerCards .sanBer {
+  height: 500px;
+}
+.tercerCards .pit {
+  height: 820px;
+}
+.tercerCards .dogArg {
+  height: 650px;
 }
 
 /* DEPORTES */
-/* CONCIERTOS */
+.mainDeportes .fotos {
+  width: 300px;
+  height: 300px;
+}
+.mainDeportes .fotos .imgFoto {
+  width: 300px;
+  height: 300px;
+}
+
+/* .carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    .deporte{
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 500px;
+        height: 500px;
+
+    }
+} */
+/* CONTACTO */
 
 /*# sourceMappingURL=style.css.map */

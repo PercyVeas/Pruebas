@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deportes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    
+<body class="allDeportes">
+    <header class="">
+        <nav class="">
+            <ul class="">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pokemones.html">Pokemones</a>
+                </li>
+                <li>
+                    <a href="./perros.html">Perros</a>
+                </li>
+                <li>
+                    <a href="#">Deportes</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainDeportes">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="fotos carousel-item active">
+                <img src="../assets/img/basquetball.jpeg" class="imgFoto d-block w-100" alt="basquetball">
+            </div>
+            <div class="fotos carousel-item">
+                <img src="../assets/img/Boxeo.jpg" class="imgFoto d-block w-100" alt="Boxeo">
+            </div>
+            <div class="fotos carousel-item">
+                <img src="../assets/img/Futbol.jpeg" class="imgFoto d-block w-100" alt="Futbol">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- <div class="carrusel">
+            <div class="deporte"><img src="../assets/img/basquetball.jpeg" alt="basquetball"></div>
+            <div class="deporte"><img src="../assets/img/Boxeo.jpg" alt="Boxeo"></div>
+            <div class="deporte"><img src="../assets/img/Futbol.jpeg" alt="futbol"></div>
+            <div class="deporte"><img src="../assets/img/futbol_americano.jpeg" alt="futbol americano"></div>
+            <div class="deporte"><img src="../assets/img/jiu_jitsu.jpg" alt="jiu jitsu"></div>
+            <div class="deporte"><img src="../assets/img/judo.jpeg" alt="judo"></div>
+            <div class="deporte"><img src="../assets/img/muay_thai.jpeg" alt="muay thai"></div>
+            <div class="deporte"><img src="../assets/img/taekwondo.jpeg" alt="taekwondo"></div>
+            <div class="deporte"><img src="../assets/img/tenis.jpeg" alt="tenis"></div>
+            <div class="deporte"><img src="../assets/img/atletismo.jpeg" alt="atletismo"></div>
+        </div> -->
+
+    </main>
+
+    <footer>
+        <section class="contactoFooter d-flex">
+            <div class="cards">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/icons/instagram.png" alt="icono de hipervinculo a instagram"></a>
+            </div>
+            <div class="cards">
+                <a href="https://es-la.facebook.com/" target="_blank"><img src="../assets/icons/facebook.png" alt="icono de hipervinculo a facebook"></a>
+            </div>
+            <div class="cards">
+                <a href="#" target="_blank"><img src="../assets/icons/whatsapp.png" alt="icono de hipervinculo a whatsapp"></a>
+            </div>
+            <div class="cards">
+                <a href="#" target="_blank"><img src="../assets/icons/street-map.png" alt="icono de hipervinculo a la ubicacion en maps"></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
